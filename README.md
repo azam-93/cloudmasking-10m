@@ -3,7 +3,7 @@
 
 This repository contains the implementation of my Master's thesis project on cloud detection, aiming to improve cloud masking accuracy at 10m resolution using Sentinel-2 imagery. While Sen2Cor’s cloud masks are provided at 20m and 60m resolutions, they lack the spatial detail needed for high-resolution applications like land monitoring or agriculture.
 
-To address this, the project combines multispectral data from 10m, 20m, and 60m bands and applies an XGBoost-based machine learning pipeline to generate refined cloud masks at 10m resolution. Furthermore, validation was performed using a **manually corrected Scene Classification Layer (SCL)**, created using QGIS to improve reliability during the inference phase
+To address this, the project combines multispectral data from 10m, 20m, and 60m bands and applies an XGBoost-based machine learning pipeline to generate refined cloud masks at 10m resolution. Validation was performed using a **manually corrected Scene Classification Layer (SCL)**, created using QGIS to improve reliability during the inference phase.
 
 ##  Project Overview
 The project is structured into two main stages:
