@@ -1,7 +1,10 @@
 
 # Cloud Masking on Sentinel-2 Imagery at 10m Resolutions
 
-This repository contains the implementation of my Master's thesis project on cloud detection using Sentinel-2 satellite data. The goal is to improve cloud masking accuracy at 10m resolution by combining spectral features from multiple resolutions (10m, 20m, and 60m) and applying a machine learning approach (XGBoost).
+This repository contains the implementation of my Master's thesis project on cloud detection, aiming to improve cloud masking accuracy at 10m resolution using Sentinel-2 imagery. While Sen2Cor’s cloud masks are provided at 20m and 60m resolutions, they lack the spatial detail needed for high-resolution applications like land monitoring or agriculture.
+
+To address this, the project combines multispectral data from 10m, 20m, and 60m bands and applies an XGBoost-based machine learning pipeline to generate refined cloud masks at 10m resolution.
+
 ##  Project Overview
 The project is structured into two main stages:
 ### Stage 1 – Training
